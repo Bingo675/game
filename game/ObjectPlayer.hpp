@@ -45,6 +45,9 @@ class ObjectPlayer : public Object {
   bool canJump;
   bool onLadder;
   bool hitPlatform;
+ 
+  ENGINE::Vector2<float> moveVector;
+  
 };
 
 #endif
